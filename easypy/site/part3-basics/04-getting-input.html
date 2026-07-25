@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Getting Input from the User · Documentation</title>
+  <meta name="description" content="Generated documentation site">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/site.css">
+  <link rel="stylesheet" href="../assets/vendor/atom-one-dark.min.css">
+</head>
+<body>
+  <div class="site">
+    <header class="topbar">
+      <button class="sidebar-toggle" id="sidebar-toggle" aria-label="Toggle navigation">☰</button>
+      <a href="../index.html" class="brand">Documentation</a>
+      <div class="search-wrap">
+        <input type="search" id="search" placeholder="Search docs…" autocomplete="off">
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar" id="sidebar">
+        <nav class="nav" aria-label="Documentation">
+          <ul class="nav-list">
+            
+                        <li class="nav-item depth-0">
+                          
+                            <a href="../index.html" class="nav-link">Easy Python — Learn Programming with Tetris</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-0 is-group">
+                          
+                            <span class="nav-group">part1 welcome</span>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part1-welcome/01-welcome-to-programming.html" class="nav-link">Welcome to Programming</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part1-welcome/02-what-is-python.html" class="nav-link">What Is Python?</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part1-welcome/03-your-tetris-journey.html" class="nav-link">Your Tetris Learning Journey</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-0 is-group">
+                          
+                            <span class="nav-group">part2 setup</span>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part2-setup/01-install-python.html" class="nav-link">Install Python</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part2-setup/02-editor-and-tools.html" class="nav-link">Editor and Development Tools</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part2-setup/03-first-program.html" class="nav-link">Your First Program</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part2-setup/04-virtual-environments.html" class="nav-link">Virtual Environments and pip</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-0 is-group">
+                          
+                            <span class="nav-group">part3 basics</span>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part3-basics/01-output-and-comments.html" class="nav-link">Output and Comments</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part3-basics/02-numbers-and-math.html" class="nav-link">Numbers and Math</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part3-basics/03-text-strings.html" class="nav-link">Text and Strings</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1 is-active">
+                          
+                            <a href="../part3-basics/04-getting-input.html" class="nav-link">Getting Input from the User</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-0 is-group">
+                          
+                            <span class="nav-group">part4 variables</span>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part4-variables/01-what-is-a-variable.html" class="nav-link">What Is a Variable?</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part4-variables/02-naming-and-assignment.html" class="nav-link">Naming and Assignment</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part4-variables/03-updating-and-displaying.html" class="nav-link">Updating and Displaying Values</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-0 is-group">
+                          
+                            <span class="nav-group">part5 decisions</span>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part5-decisions/01-boolean-logic.html" class="nav-link">True, False, and Comparisons</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part5-decisions/02-if-else.html" class="nav-link">if and else</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part5-decisions/03-combining-conditions.html" class="nav-link">Combining Conditions</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-0 is-group">
+                          
+                            <span class="nav-group">part6 loops</span>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part6-loops/01-while-loops.html" class="nav-link">while Loops</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part6-loops/02-for-loops.html" class="nav-link">for Loops and range</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part6-loops/03-loop-patterns.html" class="nav-link">Loop Patterns You Will Use Often</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-0 is-group">
+                          
+                            <span class="nav-group">part7 collections</span>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part7-collections/01-lists.html" class="nav-link">Lists — Storing Many Values</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part7-collections/02-2d-grids.html" class="nav-link">2D Grids for Games</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part7-collections/03-dictionaries.html" class="nav-link">Dictionaries — Labeled Values</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-0 is-group">
+                          
+                            <span class="nav-group">part8 functions</span>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part8-functions/01-why-functions.html" class="nav-link">Why Functions?</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part8-functions/02-defining-functions.html" class="nav-link">Defining and Calling Functions</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part8-functions/03-parameters-and-return.html" class="nav-link">Parameters and Return Values</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-0 is-group">
+                          
+                            <span class="nav-group">part9 tetris foundations</span>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part9-tetris-foundations/01-game-design-overview.html" class="nav-link">How Tetris Works — Big Picture</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part9-tetris-foundations/02-the-board.html" class="nav-link">Building the Board</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part9-tetris-foundations/03-tetromino-shapes.html" class="nav-link">Tetromino Shapes</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part9-tetris-foundations/04-drawing-the-grid.html" class="nav-link">Drawing the Grid in the Terminal</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-0 is-group">
+                          
+                            <span class="nav-group">part10 tetris logic</span>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part10-tetris-logic/01-moving-pieces.html" class="nav-link">Moving the Piece</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part10-tetris-logic/02-collision-detection.html" class="nav-link">Collision Detection</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part10-tetris-logic/03-locking-pieces.html" class="nav-link">Locking Pieces on the Board</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part10-tetris-logic/04-clearing-lines.html" class="nav-link">Clearing Full Lines</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part10-tetris-logic/05-score-and-game-over.html" class="nav-link">Score and Game Over</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-0 is-group">
+                          
+                            <span class="nav-group">part11 classes</span>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part11-classes/01-objects-and-classes.html" class="nav-link">Introduction to Classes and Objects</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part11-classes/02-piece-class.html" class="nav-link">A Piece Class for Tetris</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part11-classes/03-refactoring-tetris.html" class="nav-link">Refactoring Tetris with Classes</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-0 is-group">
+                          
+                            <span class="nav-group">part12 finale</span>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part12-finale/01-install-pygame.html" class="nav-link">Installing Pygame</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part12-finale/02-visual-tetris.html" class="nav-link">Color Tetris with Graphics</a>
+                            
+                        </li>
+                        
+                        <li class="nav-item depth-1">
+                          
+                            <a href="../part12-finale/03-next-steps.html" class="nav-link">Congratulations and Next Steps</a>
+                            
+                        </li>
+                        
+          </ul>
+        </nav>
+      </aside>
+
+      <main class="content">
+        <article class="doc">
+          <header class="doc-header">
+            <h1>Getting Input from the User</h1>
+          </header>
+          <div class="doc-body"><h1 id="chapter-11-getting-input-from-the-user">Chapter 11: Getting Input from the User</h1>
+<p><code>print</code> sends information <strong>out</strong>. <strong><code>input</code></strong> brings information <strong>in</strong> — from the keyboard. Text Tetris will use keys like <code>a</code>, <code>d</code>, <code>s</code> for left, right, down.</p>
+<h2 id="basic-input">Basic input</h2>
+<pre><code class="language-python">name = input(&quot;What is your name? &quot;)
+print(&quot;Hello,&quot;, name)
+</code></pre>
+<p>When Python hits <code>input</code>, it <strong>waits</strong> until the user presses <strong>Enter</strong>.</p>
+<p>Whatever they typed (as text) is stored in <code>name</code>.</p>
+<h2 id="input-always-returns-a-string">input Always Returns a String</h2>
+<pre><code class="language-python">age = input(&quot;How old are you? &quot;)
+print(type(age))  # &lt;class 'str'&gt;
+</code></pre>
+<p>Convert if you need a number:</p>
+<pre><code class="language-python">age = int(input(&quot;How old are you? &quot;))
+</code></pre>
+<p>If they type <code>hello</code>, <code>int</code> fails — we handle that later.</p>
+<h2 id="simple-menu-tetris-preview">Simple Menu (Tetris Preview)</h2>
+<pre><code class="language-python">print(&quot;Commands: a=left, d=right, s=down, q=quit&quot;)
+command = input(&quot;Your move: &quot;)
+print(&quot;You pressed:&quot;, command)
+</code></pre>
+<p>Later one <strong>game loop</strong> reads command each turn.</p>
+<h2 id="empty-input">Empty Input</h2>
+<p>If user presses Enter without typing, you get <code>&quot;&quot;</code> (empty string).</p>
+<pre><code class="language-python">text = input(&quot;Type something (or nothing): &quot;)
+if text == &quot;&quot;:
+    print(&quot;You entered nothing.&quot;)
+</code></pre>
+<h2 id="input-blocks-the-program">input Blocks the Program</h2>
+<p>The rest of your code <strong>waits</strong> during <code>input</code>. In graphical Tetris, Pygame reads keys differently (no Enter per move). Text Tetris uses <code>input</code> for simplicity while learning.</p>
+<h2 id="try-it-yourself">Try It Yourself</h2>
+<p>Create <code>greet.py</code>:</p>
+<ol>
+<li>Ask for name and favorite color.</li>
+<li>Print a sentence using both with an f-string.</li>
+<li>Ask for a number as string, convert with <code>int</code>, double it and print.</li>
+</ol>
+<h2 id="summary">Summary</h2>
+<ul>
+<li><strong><code>input(prompt)</code></strong> reads a line of text from the user.</li>
+<li>Result is always a <strong>string</strong> — use <code>int()</code> / <code>float()</code> if needed.</li>
+<li>Text Tetris commands start as simple <strong>letter input</strong>.</li>
+<li>Next: variables — storing values with names.</li>
+</ul>
+<p><strong>Next:</strong> <a href="../part4-variables/01-what-is-a-variable.html">What Is a Variable?</a></p>
+</div>
+          <footer class="doc-footer">
+            <p>Generated by <strong>MDWeb</strong></p>
+          </footer>
+        </article>
+
+        
+                <aside class="toc" aria-label="On this page">
+                  <p class="toc-title">On this page</p>
+                  <ul>
+                    
+                        <li class="toc-h1">
+                          <a href="#chapter-11-getting-input-from-the-user">Chapter 11: Getting Input from the User</a>
+                        </li>
+                        
+                        <li class="toc-h2">
+                          <a href="#basic-input">Basic input</a>
+                        </li>
+                        
+                        <li class="toc-h2">
+                          <a href="#input-always-returns-a-string">input Always Returns a String</a>
+                        </li>
+                        
+                        <li class="toc-h2">
+                          <a href="#simple-menu-tetris-preview">Simple Menu (Tetris Preview)</a>
+                        </li>
+                        
+                        <li class="toc-h2">
+                          <a href="#empty-input">Empty Input</a>
+                        </li>
+                        
+                        <li class="toc-h2">
+                          <a href="#input-blocks-the-program">input Blocks the Program</a>
+                        </li>
+                        
+                        <li class="toc-h2">
+                          <a href="#try-it-yourself">Try It Yourself</a>
+                        </li>
+                        
+                        <li class="toc-h2">
+                          <a href="#summary">Summary</a>
+                        </li>
+                        
+                  </ul>
+                </aside>
+                
+      </main>
+    </div>
+  </div>
+  <script src="../assets/vendor/mermaid.min.js"></script>
+  <script src="../assets/vendor/highlight.min.js"></script>
+  <script src="../assets/js/site.js"></script>
+</body>
+</html>
