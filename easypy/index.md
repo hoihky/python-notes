@@ -70,81 +70,81 @@ flowchart LR
 
 ### Part 1 — Welcome
 
-1. [Welcome to Programming](part1-welcome/01-welcome-to-programming.html)
-2. [What Is Python?](part1-welcome/02-what-is-python.html)
-3. [Your Tetris Learning Journey](part1-welcome/03-your-tetris-journey.html)
+1. [Welcome to Programming](part1-welcome/01-welcome-to-programming.md)
+2. [What Is Python?](part1-welcome/02-what-is-python.md)
+3. [Your Tetris Learning Journey](part1-welcome/03-your-tetris-journey.md)
 
 ### Part 2 — Setup
 
-4. [Install Python](part2-setup/01-install-python.html)
-5. [Editor and Development Tools](part2-setup/02-editor-and-tools.html)
-6. [Your First Program](part2-setup/03-first-program.html)
-7. [Virtual Environments and pip](part2-setup/04-virtual-environments.html)
+4. [Install Python](part2-setup/01-install-python.md)
+5. [Editor and Development Tools](part2-setup/02-editor-and-tools.md)
+6. [Your First Program](part2-setup/03-first-program.md)
+7. [Virtual Environments and pip](part2-setup/04-virtual-environments.md)
 
 ### Part 3 — Basics
 
-8. [Output and Comments](part3-basics/01-output-and-comments.html)
-9. [Numbers and Math](part3-basics/02-numbers-and-math.html)
-10. [Text and Strings](part3-basics/03-text-strings.html)
-11. [Getting Input from the User](part3-basics/04-getting-input.html)
+8. [Output and Comments](part3-basics/01-output-and-comments.md)
+9. [Numbers and Math](part3-basics/02-numbers-and-math.md)
+10. [Text and Strings](part3-basics/03-text-strings.md)
+11. [Getting Input from the User](part3-basics/04-getting-input.md)
 
 ### Part 4 — Variables
 
-12. [What Is a Variable?](part4-variables/01-what-is-a-variable.html)
-13. [Naming and Assignment](part4-variables/02-naming-and-assignment.html)
-14. [Updating and Displaying Values](part4-variables/03-updating-and-displaying.html)
+12. [What Is a Variable?](part4-variables/01-what-is-a-variable.md)
+13. [Naming and Assignment](part4-variables/02-naming-and-assignment.md)
+14. [Updating and Displaying Values](part4-variables/03-updating-and-displaying.md)
 
 ### Part 5 — Decisions
 
-15. [True, False, and Comparisons](part5-decisions/01-boolean-logic.html)
-16. [if and else](part5-decisions/02-if-else.html)
-17. [Combining Conditions](part5-decisions/03-combining-conditions.html)
+15. [True, False, and Comparisons](part5-decisions/01-boolean-logic.md)
+16. [if and else](part5-decisions/02-if-else.md)
+17. [Combining Conditions](part5-decisions/03-combining-conditions.md)
 
 ### Part 6 — Loops
 
-18. [while Loops](part6-loops/01-while-loops.html)
-19. [for Loops and range](part6-loops/02-for-loops.html)
-20. [Loop Patterns You Will Use Often](part6-loops/03-loop-patterns.html)
+18. [while Loops](part6-loops/01-while-loops.md)
+19. [for Loops and range](part6-loops/02-for-loops.md)
+20. [Loop Patterns You Will Use Often](part6-loops/03-loop-patterns.md)
 
 ### Part 7 — Collections
 
-21. [Lists — Storing Many Values](part7-collections/01-lists.html)
-22. [2D Grids for Games](part7-collections/02-2d-grids.html)
-23. [Dictionaries — Labeled Values](part7-collections/03-dictionaries.html)
+21. [Lists — Storing Many Values](part7-collections/01-lists.md)
+22. [2D Grids for Games](part7-collections/02-2d-grids.md)
+23. [Dictionaries — Labeled Values](part7-collections/03-dictionaries.md)
 
 ### Part 8 — Functions
 
-24. [Why Functions?](part8-functions/01-why-functions.html)
-25. [Defining and Calling Functions](part8-functions/02-defining-functions.html)
-26. [Parameters and Return Values](part8-functions/03-parameters-and-return.html)
+24. [Why Functions?](part8-functions/01-why-functions.md)
+25. [Defining and Calling Functions](part8-functions/02-defining-functions.md)
+26. [Parameters and Return Values](part8-functions/03-parameters-and-return.md)
 
 ### Part 9 — Tetris Foundations
 
-27. [How Tetris Works — Big Picture](part9-tetris-foundations/01-game-design-overview.html)
-28. [Building the Board](part9-tetris-foundations/02-the-board.html)
-29. [Tetromino Shapes](part9-tetris-foundations/03-tetromino-shapes.html)
-30. [Drawing the Grid in the Terminal](part9-tetris-foundations/04-drawing-the-grid.html)
+27. [How Tetris Works — Big Picture](part9-tetris-foundations/01-game-design-overview.md)
+28. [Building the Board](part9-tetris-foundations/02-the-board.md)
+29. [Tetromino Shapes](part9-tetris-foundations/03-tetromino-shapes.md)
+30. [Drawing the Grid in the Terminal](part9-tetris-foundations/04-drawing-the-grid.md)
 
 ### Part 10 — Tetris Game Logic
 
-31. [Moving the Piece](part10-tetris-logic/01-moving-pieces.html)
-32. [Collision Detection](part10-tetris-logic/02-collision-detection.html)
-33. [Locking Pieces on the Board](part10-tetris-logic/03-locking-pieces.html)
-34. [Clearing Full Lines](part10-tetris-logic/04-clearing-lines.html)
-35. [Score and Game Over](part10-tetris-logic/05-score-and-game-over.html)
+31. [Moving the Piece](part10-tetris-logic/01-moving-pieces.md)
+32. [Collision Detection](part10-tetris-logic/02-collision-detection.md)
+33. [Locking Pieces on the Board](part10-tetris-logic/03-locking-pieces.md)
+34. [Clearing Full Lines](part10-tetris-logic/04-clearing-lines.md)
+35. [Score and Game Over](part10-tetris-logic/05-score-and-game-over.md)
 
 ### Part 11 — Classes
 
-36. [Introduction to Classes and Objects](part11-classes/01-objects-and-classes.html)
-37. [A Piece Class for Tetris](part11-classes/02-piece-class.html)
-38. [Refactoring Tetris with Classes](part11-classes/03-refactoring-tetris.html)
+36. [Introduction to Classes and Objects](part11-classes/01-objects-and-classes.md)
+37. [A Piece Class for Tetris](part11-classes/02-piece-class.md)
+38. [Refactoring Tetris with Classes](part11-classes/03-refactoring-tetris.md)
 
 ### Part 12 — Finale
 
-39. [Installing Pygame](part12-finale/01-install-pygame.html)
-40. [Color Tetris with Graphics](part12-finale/02-visual-tetris.html)
-41. [Congratulations and Next Steps](part12-finale/03-next-steps.html)
+39. [Installing Pygame](part12-finale/01-install-pygame.md)
+40. [Color Tetris with Graphics](part12-finale/02-visual-tetris.md)
+41. [Congratulations and Next Steps](part12-finale/03-next-steps.md)
 
 ---
 
-Start here: [Welcome to Programming](part1-welcome/01-welcome-to-programming.html)
+Start here: [Welcome to Programming](part1-welcome/01-welcome-to-programming.md)
