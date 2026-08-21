@@ -10,6 +10,8 @@ See [LICENSE](LICENSE) for terms (CC BY-NC 4.0 — attribution, non-commercial u
 |-------|-------------|---------------|------|
 | [Easy Python](easypy/) | Python for absolute beginners — variables, loops, functions, classes, and building Tetris step by step | [Welcome to Programming](easypy/part1-welcome/01-welcome-to-programming.md) | [site](easypy/site/index.html) |
 
+Sample program (text + Pygame Tetris): [tetris/](tetris/)
+
 Each topic folder includes an `index.md` with the full chapter list. HTML sites are generated with [MDWeb](https://github.com/hoihky/MDWeb) and are best previewed with a local static server (e.g. `npx serve easypy/site`) so diagrams and assets load correctly.
 
 ## Repository layout
@@ -23,6 +25,7 @@ python-notes/
 │   ├── index.md
 │   └── site/          # generated HTML (MDWeb output)
 ├── easypy-theme/      # MDWeb theme (dark code blocks, custom styling)
+├── tetris/            # working sample program (text + Pygame Tetris)
 ├── footer.html        # page footer fragment for MDWeb
 └── LICENSE
 ```
